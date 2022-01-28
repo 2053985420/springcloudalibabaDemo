@@ -1,0 +1,12 @@
+spring:
+  cloud:
+    nacos:
+      config:
+        server-addr: 8.130.11.172:28848
+        file-extension: yaml
+        namespace: b05b6177-f61e-4814-99c9-c5c62d214b2a
+        group: DEFAULT_GROUP
+  application:
+    name: provider
+server:
+  port: 8082
